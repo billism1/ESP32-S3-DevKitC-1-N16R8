@@ -3,7 +3,7 @@
     "arduino":{
       "ldscript": "esp32s3_out.ld",
       "partitions": "default_16MB.csv",
-      "memory_type": "opi_opi"
+      "memory_type": "qio_opi"
     },
     "core": "esp32",
     "extra_flags": [
@@ -14,7 +14,7 @@
     ],
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
-    "flash_mode": "opi",
+    "flash_mode": "qio",
     "psram_type": "opi",
     "hwids": [
       [
